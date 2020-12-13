@@ -1,2 +1,2 @@
 # -SocialMediaAccountMaster
-It's a freaking suck wechat miniprogram.
+It's a freaking boring wechat miniprogram.
