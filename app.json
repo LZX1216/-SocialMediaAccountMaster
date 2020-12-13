@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/wa/wa",
+    "pages/tp/tp",
+    "pages/tx1/tx1",
+    "pages/tx2/tx2",
+    "pages/tx/tx",
+    "pages/about/about",
+    "pages/directions/directions",
+    "pages/easteregg/easteregg"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3399FF",
+    "navigationBarTitleText": " ",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#3399ff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home2.png",
+        "selectedIconPath": "image/home1.png"
+      },
+      {
+        "pagePath": "pages/easteregg/easteregg",
+        "text": "小游戏",
+        "iconPath": "image/game2.png",
+        "selectedIconPath": "image/game1.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "image/about2.png",
+        "selectedIconPath": "image/about1.png"
+      }
+    ]
+  }
+}

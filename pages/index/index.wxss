@@ -1,0 +1,40 @@
+.background-top{
+  width: 750rpx;
+  height: 400rpx;
+}
+
+.functions{
+  width:300rpx;
+  height:150rpx;
+  display: flex;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.word{
+  margin-left: 40rpx;
+  font-weight: bold;
+  font-size: xx-large;
+  letter-spacing: 5rpx;
+  /*/color: white;/*/
+}
+
+.bottom{
+  position: fixed;
+  text-align: center;
+  bottom: 10rpx;
+  left: 0;
+  right: 0;
+}
+
+.questionmark{
+  height: 20rpx;
+  width: 20rpx;
+}
+
+.bottomtext{
+  color: #3399ff;
+  font-size: smaller;
+}

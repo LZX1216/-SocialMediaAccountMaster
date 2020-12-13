@@ -1,0 +1,70 @@
+.score{
+  display: flex;
+}
+
+.scoredetail{
+  flex: 1;
+  background: #3399ff;
+  height: 120rpx;
+  margin: 10rpx 20rpx 10rpx 20rpx;
+  text-align: center;
+  color: white;
+  border-radius: 20rpx;
+}
+.scoredesc{
+  line-height: 60rpx;
+}
+.scorenumber{
+  line-height: 70rpx;
+  font-size: larger;
+}
+.scoredetail:last-child{
+  margin-right: 40rpx;
+}
+.ground{
+  width: 660rpx;
+  height: 840rpx;
+  margin-left: 50rpx;
+}
+.rows{
+  width: 660rpx;
+  height: 30rpx;
+}
+.block{
+  background: #ABDDFF;
+  width: 30rpx;
+  height: 30rpx;
+  float: left;
+}
+.control{
+  width: 100%;
+  height: 100%;
+}
+.block_1{
+  background: rgb(241, 241, 241);
+}
+.block_3{
+  background: #3399ff;
+}
+.diff{
+  display: flex;
+}
+
+.diff-button{
+  width: auto;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  background-color: #3399ff;
+  color: #fcfcfc;
+  font-size: smaller;
+}
+
+.diff-hover{
+  background-color: #99ccff;
+}
+
+.word{
+  font-size: xx-small;
+}

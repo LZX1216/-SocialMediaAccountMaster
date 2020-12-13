@@ -1,0 +1,45 @@
+<view class="control" bindtouchstart="tapStart"
+bindtouchmove="tapMove" bindtouchend="tapEnd">
+
+  <view class="score">
+    <view class="scoredetail">
+      <view class="scoredesc">得分</view>
+      <view class="scorenumber">{{score}}</view>
+    </view>
+    <view class="scoredetail">
+      <view class="scoredesc">个人最高</view>
+      <view class="scorenumber">{{maxscore}}</view>
+    </view>
+    <view class="scoredetail">
+      <view class="scoredesc">排行最高</view>
+      <view class="scorenumber">{{netmaxscore}}</view>
+    </view>
+  </view>
+
+<view class="dif">难度选择</view>
+
+  <view class="diff">
+    <button class="diff-button" hover-class="diff-hover" bindtap="diff1">简单</button>
+    <button class="diff-button" hover-class="diff-hover" bindtap="diff2">中等</button>
+    <button class="diff-button" hover-class="diff-hover" bindtap="diff3">困难</button>
+    <button class="diff-button" hover-class="diff-hover" bindtap="diff4">极难</button>
+  </view>
+
+  <view class="ground">
+    <view class="rows" wx:for="{{ground}}" wx:for-item="cols">
+      <view wx:for="{{cols}}" class="block block_{{item}}"></view>
+    </view>
+  </view>
+
+  <modal class="modal" hidden="{{modalHidden}}" no-cancel
+  bindconfirm="modalConfirm">
+    <view>游戏结束，需要重新开始吗？</view>
+  </modal>
+
+<view class="word">
+  <view>游戏说明：</view>
+  <view>1.滑动即可改变方向，撞到边界即死亡</view>
+  <view>2.游戏默认难度为简单，切换难度需要先死亡一次</view>
+</view>
+
+</view>

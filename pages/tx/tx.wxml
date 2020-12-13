@@ -1,0 +1,2 @@
+<image class="functions" src="/image/female.png" bindtap="tx1"></image>
+<image class="functions" src="/image/male.png" bindtap="tx2"></image>

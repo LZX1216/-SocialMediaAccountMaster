@@ -1,0 +1,9 @@
+<view class="profile">
+<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+<image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+<view class="nickname">{{userInfo.nickName}}</view>
+<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+</view>
+
+<button class="button1" hover-class="button1-hover" bindtap="directions">使用说明</button>
+<button class="button1" hover-class="button1-hover" open-type="feedback">问题反馈</button>

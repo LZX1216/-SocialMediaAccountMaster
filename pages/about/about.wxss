@@ -1,0 +1,37 @@
+.profile{
+  background-image: url(https://s3.ax1x.com/2020/12/04/DbISTx.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.avatar{
+  height: 150rpx;
+  width: 150rpx;
+  display: flex;
+  margin-top: 10rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nickname{
+  display: flex;
+  margin-top: 10rpx;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+  
+}
+
+.button1{
+  width: max-content;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: #3399ff;
+  color: #fcfcfc;
+}
+
+.button1-hover{
+  background-color: #99ccff;
+}

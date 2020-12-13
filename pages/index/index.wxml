@@ -1,0 +1,9 @@
+<image class="background-top" src="/image/background-top.png"></image>
+<view class="word">分类</view>
+<image class="functions" src="/image/wa.png" bindtap="wa"></image>
+<image class="functions" src="/image/tx.png" bindtap="tx"></image>
+<image class="functions" src="/image/tp.png" bindtap="tp"></image>
+<view class="bottom" bindtap="directions">
+  <image class="questionmark" src="/image/questionmark.png"></image>
+  <text class="bottomtext">第一次进入小程序？请点这里</text>
+</view>

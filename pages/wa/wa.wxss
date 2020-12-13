@@ -1,0 +1,33 @@
+.wa{
+  height: 200rpx;
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  background-color: #f0f0f0;
+  border-radius: 12rpx;
+  font-weight: lighter;
+  font-size: 30rpx;
+}
+.button1{
+  width: max-content;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: #3399ff;
+  color: #fcfcfc;
+}
+
+.button1-hover{
+  background-color: #99ccff;
+}
+
+.button2{
+  width: max-content;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: #fcfcfc;
+  color: #3399ff;
+}
+
+.button2-hover{
+  background-color: #d9d9d9;
+}

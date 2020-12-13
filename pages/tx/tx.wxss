@@ -1,0 +1,9 @@
+.functions{
+  width:300rpx;
+  height:150rpx;
+  display: flex;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+}

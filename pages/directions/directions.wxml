@@ -1,0 +1,3 @@
+<view class="img">
+  <image src="/image/directions.png" mode="widthFix"></image>
+</view>
